@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #202124;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: block;
+  background-color: #202124;
+}
+.navigation {
+  height: 18px;
+  width: 100%;
+  background-color: #191a1d;
+  position: sticky;
+  top: 0;
+  padding: 12px 0;
+}
+.progress-wrapper {
+  border-radius: 8px;
+  border: 2px solid #444;
+  box-sizing: border-box;
+  height: 16px;
+  margin-bottom: 8px;
+  width: 90%;
+  margin: 0 auto;
+}
+.progress-track {
+  background-color: #61afef;
+  border: 2px solid #222;
+  border-radius: 9px;
+  height: 8px;
+  padding: 0;
+  animation: progressBar 1.5s ease-in-out;
+  animation-fill-mode: both;
+}
+
+p {
+  padding: 12px;
+  margin: 24px;
+  color: white;
+}
